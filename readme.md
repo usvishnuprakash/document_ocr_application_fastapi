@@ -12,6 +12,10 @@
 
 ## Getting Started
 
+### Prerequisites
+
+- **Python 3.12** or higher is required.
+
 ### 1. Clone the Repository
 
 ```bash
@@ -19,10 +23,12 @@ git clone <repository-url>
 cd <repository-directory>
 ```
 
-### 2. Create a Virtual Environment
+### 2. Create a Virtual Environment (Python 3.12)
+
+Ensure that Python 3.12 is installed, then create a virtual environment:
 
 ```bash
-python -m venv venv
+python3.12 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
 
@@ -38,7 +44,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-The app will now be running at `http://127.0.0.1:8000`.
+The app will now be running at `http://localhost:8000`.
 
 ### 5. API Documentation
 
@@ -46,5 +52,8 @@ Visit `http://127.0.0.1:8000/docs` for the automatically generated Swagger UI.
 
 ---
 
-
 ```
+
+### Key Updates:
+- **Python 3.12** is specified as a prerequisite.
+- The virtual environment is created with Python 3.12 using `python3.12 -m venv venv` to ensure compatibility.
