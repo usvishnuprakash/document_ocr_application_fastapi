@@ -14,8 +14,8 @@ This is the **frontend** for the OCR chatbot application, built with React and s
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/usvishnuprakash/doument_ocr_application_react.git
+cd doument_ocr_application_react
 ```
 
 ### 2. Install Dependencies
