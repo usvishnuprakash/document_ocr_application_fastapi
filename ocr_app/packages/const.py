@@ -1,0 +1,4 @@
+# constance
+SECRET_KEY = "hello_happy_day"
+ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = 30
