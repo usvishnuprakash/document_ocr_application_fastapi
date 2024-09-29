@@ -1,20 +1,15 @@
 
 ```markdown
-# OCR Chatbot Backend
+# OCR Chatbot Frontend
 
-## Technologies Used
-
-- **FastAPI**: For building APIs
-- **SQLAlchemy**: For database management
-- **JWT**: For authentication
-- **PyMuPDF**: For PDF handling
-- **Transformers (Hugging Face)**: For handling the question-answering model
+This is the **frontend** for the OCR chatbot application, built with React and styled using Tailwind CSS. It communicates with a FastAPI backend to handle PDF uploads, question-answering, and user authentication.
 
 ## Getting Started
 
 ### Prerequisites
 
-- **Python 3.12** or higher is required.
+- **Node.js** (version 12 or higher)
+- **npm** (comes with Node.js) or **yarn** (optional)
 
 ### 1. Clone the Repository
 
@@ -23,37 +18,37 @@ git clone <repository-url>
 cd <repository-directory>
 ```
 
-### 2. Create a Virtual Environment (Python 3.12)
-
-Ensure that Python 3.12 is installed, then create a virtual environment:
+### 2. Install Dependencies
 
 ```bash
-python3.12 -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+npm install
 ```
 
-### 3. Install Dependencies
+Or, if you're using **yarn**:
 
 ```bash
-pip install -r requirements.txt
+yarn install
 ```
 
-### 4. Run the Application
+### 3. Run the Application
+
+The application will run on **http://localhost:3006**:
 
 ```bash
-uvicorn main:app --reload
+npm start
 ```
 
-The app will now be running at `http://localhost:8000`.
+Or, if using **yarn**:
 
-### 5. API Documentation
+```bash
+yarn start
+```
 
-Visit `http://127.0.0.1:8000/docs` for the automatically generated Swagger UI.
 
----
+
 
 ```
 
-### Key Updates:
-- **Python 3.12** is specified as a prerequisite.
-- The virtual environment is created with Python 3.12 using `python3.12 -m venv venv` to ensure compatibility.
+
+- **Runs on port 3006**: Specified in the "Run the Application" section.
+
